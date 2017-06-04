@@ -6,23 +6,32 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.EntityPlayerMP;
 
 import phlaxyr.masscrafting.blocks.BlockRegistrarClient;
+import phlaxyr.masscrafting.items.ItemRegistrar;
+import phlaxyr.masscrafting.items.ItemRegistrarClient;
 import phlaxyr.masscrafting.recipe.RecipeRegistrar;
+import phlaxyr.masscrafting.recipe.RecipeRegistrarClient;
 
 public class ClientProxy extends CommonProxy{
 	public void preInit() {
 		super.preInit();
 		BlockRegistrarClient.preInit();
-		RecipeRegistrar.preInit();
+		ItemRegistrarClient.preInit();
+		RecipeRegistrarClient.preInit();
+
 	}
 	public void init() {
 		super.init();
 		BlockRegistrarClient.init();
-		RecipeRegistrar.init();
+		ItemRegistrarClient.init();
+		RecipeRegistrarClient.init();
+
 	}
 	public void postInit() {
 		super.postInit();
 		BlockRegistrarClient.postInit();
-		RecipeRegistrar.postInit();
+		ItemRegistrarClient.postInit();
+		RecipeRegistrarClient.postInit();
+
 	}
 	
 	@Override
