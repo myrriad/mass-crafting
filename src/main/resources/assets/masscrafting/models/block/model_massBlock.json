@@ -1,0 +1,23 @@
+{
+
+    "parent": "block/cube",
+
+    "textures": {
+
+        "down": "masscrafting:blocks/mass_block",
+
+        "up": "masscrafting:blocks/mass_block",
+
+        "north": "masscrafting:blocks/mass_block",
+
+        "east": "masscrafting:blocks/mass_block",
+
+        "south": "masscrafting:blocks/mass_block",
+
+        "west": "masscrafting:blocks/mass_block",
+
+        "particle": "blocks/lapis_block"
+
+    }
+
+}

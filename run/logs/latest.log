@@ -1,0 +1,35 @@
+[20:49:48] [Client thread/INFO]: Setting user: Player792
+[20:50:08] [Client thread/WARN]: Skipping bad option: lastServer:
+[20:50:08] [Client thread/INFO]: LWJGL Version: 2.9.4
+[20:50:36] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mass Crafting, FMLFileResourcePack:Just Enough Items, FMLFileResourcePack:Waila
+[20:51:28] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[20:51:28] [Thread-8/INFO]: Initializing LWJGL OpenAL
+[20:51:28] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[20:51:32] [Thread-8/INFO]: OpenAL initialized.
+[20:51:32] [Sound Library Loader/INFO]: Sound engine started
+[20:51:47] [Client thread/INFO]: Created: 16x16 textures-atlas
+[20:52:05] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mass Crafting, FMLFileResourcePack:Just Enough Items, FMLFileResourcePack:Waila
+[20:52:48] [Client thread/INFO]: SoundSystem shutting down...
+[20:52:48] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[20:52:49] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[20:52:49] [Thread-12/INFO]: Initializing LWJGL OpenAL
+[20:52:49] [Thread-12/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[20:52:49] [Thread-12/INFO]: OpenAL initialized.
+[20:52:49] [Sound Library Loader/INFO]: Sound engine started
+[20:53:09] [Client thread/INFO]: Created: 512x512 textures-atlas
+[20:53:16] [Client thread/WARN]: Skipping bad option: lastServer:
+[20:53:24] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[20:53:33] [Server thread/INFO]: Starting integrated minecraft server version 1.10.2
+[20:53:33] [Server thread/INFO]: Generating keypair
+[20:53:35] [Server thread/INFO]: Preparing start region for level 0
+[20:53:36] [Server thread/INFO]: Preparing spawn area: 0%
+[20:53:37] [Server thread/INFO]: Preparing spawn area: 26%
+[20:53:38] [Server thread/INFO]: Preparing spawn area: 80%
+[20:53:39] [Server thread/INFO]: Changing view distance to 12, from 10
+[20:53:45] [Server thread/INFO]: Player792[local:E:de5494ab] logged in with entity id 81 at (385.12151638250634, 4.0, 669.2941923192627)
+[20:53:45] [Server thread/INFO]: Player792 joined the game
+[20:53:46] [Server thread/INFO]: Saving and pausing game...
+[20:53:49] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[20:53:50] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[20:53:50] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[20:53:50] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5140ms behind, skipping 102 tick(s)
