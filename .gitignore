@@ -1,4 +1,8 @@
 /bin/
 /.gradle/
+<<<<<<< HEAD
 /build/
 /.settings/
+=======
+/build/
+>>>>>>> c40b0759bcd6c4cac4aa465313f76af741f528b3

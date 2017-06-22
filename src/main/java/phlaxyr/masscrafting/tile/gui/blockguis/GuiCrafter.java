@@ -1,14 +1,12 @@
 package phlaxyr.masscrafting.tile.gui.blockguis;
 
+import java.awt.Color;
+
 import net.minecraft.client.gui.inventory.GuiContainer;
 import net.minecraft.client.renderer.GlStateManager;
-import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.util.ResourceLocation;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
-import phlaxyr.masscrafting.crafting.manager.ManagerExtendable;
 import phlaxyr.masscrafting.tile.container.ContainerCrafterExtendable;
 import phlaxyr.masscrafting.tile.tile.TileEntityInventoryCrafter;
 
@@ -17,6 +15,8 @@ public class GuiCrafter extends GuiContainer
 {
     private static final ResourceLocation tex = new ResourceLocation("masscrafting:textures/gui/m_workbench_gui.png");
 
+    
+    TileEntityInventoryCrafter tile;
     /*
     public GuiCrafter(InventoryPlayer invp, World world, BlockPos pos,
     		TileEntityInventoryCrafter table, ManagerExtendable manager, 
@@ -26,9 +26,10 @@ public class GuiCrafter extends GuiContainer
         this.xSize = textureSizeX;
         this.ySize = textureSizeY;
     }*/
-    public GuiCrafter(ContainerCrafterExtendable container, 
+    public GuiCrafter(ContainerCrafterExtendable container, TileEntityInventoryCrafter tile,
     		int textureSizeX, int textureSizeY) {
     	super(container);
+    	this.tile = tile;
     	this.xSize = textureSizeX;
     	this.ySize = textureSizeY;
     }
@@ -38,7 +39,7 @@ public class GuiCrafter extends GuiContainer
     @Override
     protected void drawGuiContainerForegroundLayer(int i, int j)
     {
-        //this.fontRendererObj.drawString(StatCollector.translateToLocal("container.extreme_crafting"), 28, 6, 4210752);
+		fontRendererObj.drawString(tile.getDisplayName().getUnformattedText(), 95, 5, Color.darkGray.getRGB());
         //this.fontRendererObj.drawString(StatCollector.translateToLocal("container.inventory"), 8, this.ySize - 96 + 2, 4210752);
     }
 

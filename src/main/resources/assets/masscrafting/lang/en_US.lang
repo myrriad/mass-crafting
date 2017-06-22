@@ -1,2 +1,5 @@
 tile.mass_block.name=Mass Block
 item.mass_ingot.name=Mass Ingot
+item.mass_nugget.name=Mass Nugget
+item.energy_nugget.name=Energy Nugget
+container.m_workbench.name=Mass Crafting Table
