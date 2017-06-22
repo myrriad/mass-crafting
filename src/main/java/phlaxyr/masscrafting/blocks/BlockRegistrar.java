@@ -5,11 +5,12 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemBlock;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import phlaxyr.masscrafting.Registrar;
+import phlaxyr.masscrafting.blocks.withGui.BlockCrafter5by5;
 
 public class BlockRegistrar extends Registrar {
 	
 	public static BlockSimple block_massBlock;
-	public static BlockSimple block_mWorkbench;
+	public static BlockCrafter5by5 block_mWorkbench;
 	
 	public static ItemBlock item_massBlock;
 	public static ItemBlock item_mWorkbench;
@@ -27,7 +28,7 @@ public class BlockRegistrar extends Registrar {
 	    
 	    
 	    
-		block_mWorkbench = new BlockSimple(Material.WOOD, CreativeTabs.MISC);
+		block_mWorkbench = new BlockCrafter5by5(Material.WOOD);
 		block_mWorkbench.setUnlocalizedName("m_workbench");
 		block_mWorkbench.setRegistryName("m_workbench");
 		GameRegistry.register(block_mWorkbench);
